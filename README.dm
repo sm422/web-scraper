@@ -1,7 +1,7 @@
-# Static Webpage Scraper
-### Purpose
+#Static Webpage Scraper
+###Purpose
 This script can be used to record specific attributes of html elements on static web pages.
-### Usage
+###Usage
 This requires 5 parameters to run:
 1. URL of the static webpage
 2. Type of tag of the target element
