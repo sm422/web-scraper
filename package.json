@@ -1,0 +1,24 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "./src/scape.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node ./src/scrape.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sm422/web-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sm422/web-scraper/issues"
+  },
+  "homepage": "https://github.com/sm422/web-scraper#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
