@@ -8,8 +8,8 @@ This requires 5 parameters to run:
 3. Name of the target attribute
 4. A filter value - elements without this value will be ignored
 5. Action for the scraper to take:
-  1. list - to put the target attribute values into output/output.txt
-  2. download - to download src attributes into output/ (only works with .jpg and .png right now)
+  * list - to put the target attribute values into output/output.txt
+  * download - to download src attributes into output/ (only works with .jpg and .png right now)
 For example, to record the href values of every anchor tag:
  > npm run scrape -- https://exampleurl.com a href all list
 To download the src of every img tag containing the id 'profilePicture':
